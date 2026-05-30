@@ -14,8 +14,8 @@ import {
 } from 'lucide-react';
 
 // Locally generated high-res assets
-const BACKGROUND_IMAGE_URL = '/src/assets/images/tokyo_sakura_street_1780099401351.png';
-const PROFILE_IMAGE_URL = '/src/assets/images/profile.png';
+import BACKGROUND_IMAGE_URL from './assets/images/tokyo_sakura_street_1780099401351.png';
+import PROFILE_IMAGE_URL from './assets/images/profile.png';
 
 export default function App() {
   const [isContactOpen, setIsContactOpen] = useState(false);
