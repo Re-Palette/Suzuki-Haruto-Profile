@@ -1,0 +1,6 @@
+{
+  "name": "Haruto Suzuki Digital Business Card",
+  "description": "A luxurious, interactive Japanese-aesthetic mobile-first business card and personal branding landing page for Haruto Suzuki, founder of Re-Palette.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

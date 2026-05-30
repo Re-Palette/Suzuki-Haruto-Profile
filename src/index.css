@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@400;500;600;700&family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif JP", serif;
+  --font-cinzel: "Cinzel", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-signature: "Alex Brush", cursive;
+  --color-gold-accent: #D4B483;
+}
+
+@layer base {
+  body {
+    background-color: #0c0d10;
+    font-family: var(--font-sans);
+    color: #f8fafc;
+    overflow-x: hidden;
+  }
+}
+
+/* Smooth glass transition and gold glow effects */
+.glass-glow-gold {
+  box-shadow: 0 0 20px rgba(212, 180, 131, 0.05), inset 0 0 20px rgba(212, 180, 131, 0.05);
+}
+
+.glass-glass-premium {
+  background: rgba(12, 13, 16, 0.70);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(212, 180, 131, 0.15);
+}
+
+.golden-text-shimmer {
+  background: linear-gradient(135deg, #f3e7c9 0%, #D4B483 50%, #8c734b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: #D4B483;
+  border-radius: 4px;
+}
+
